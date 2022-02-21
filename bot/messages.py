@@ -3,8 +3,7 @@ class Messages:
         "Your request has been added to the queue. If you have more than {per_user_process_count} "
         "ongoing processes, then this process will only start after one of them finishes."
     )
-    MEDIA_MESSAGE_DELETED = "Why did you delete the file 😠, Now i cannot help you 😒. Get lost 😡 
-Powered by:@Thanimaibots"
+    MEDIA_MESSAGE_DELETED = "Why did you delete the file 😠, Now i cannot help you 😒. Get lost 😡 Powered by:@Thanimaibots"
     CANNOT_OPEN_FILE = "😟 Sorry! I cannot open the file.contact : @Thanimaisupport"
     PROCESS_TIMEOUT = (
         "😟 Sorry! process failed due to timeout. Your process was "
