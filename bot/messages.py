@@ -3,14 +3,16 @@ class Messages:
         "Your request has been added to the queue. If you have more than {per_user_process_count} "
         "ongoing processes, then this process will only start after one of them finishes."
     )
-    MEDIA_MESSAGE_DELETED = "Why did you delete the file 😠, Now i cannot help you 😒."
-    CANNOT_OPEN_FILE = "😟 Sorry! I cannot open the file."
+    MEDIA_MESSAGE_DELETED = "Why did you delete the file 😠, Now i cannot help you 😒. Get lost 😡 
+Powered by:@Thanimaibots"
+    CANNOT_OPEN_FILE = "😟 Sorry! I cannot open the file.contact : @Thanimaisupport"
     PROCESS_TIMEOUT = (
         "😟 Sorry! process failed due to timeout. Your process was "
         "taking too long to complete, hence cancelled."
     )
     TRACK_USER_ACTIVITY = "User id: `{chat_id}`"
-    PROCESSING_REQUEST = "Processing your request, Please wait! 😴"
+    PROCESSING_REQUEST = "Processing your request, Please wait! 😴
+@thanimsibots"
     SCREENSHOT_AT = "ScreenShot at {time}"
     SCREENSHOT_PROCESS_FAILED = "😟 Sorry! Screenshot generation failed possibly due to some infrastructure failure 😥."
     SCREENSHOT_PROCESS_SUCCESS = (
@@ -26,10 +28,10 @@ class Messages:
     VIDEO_PROCESS_CAPTION = "Sample video. {duration}s from {start}"
     SCREENSHOTS_START = "😀 Generating screenshots!."
 
-    SAMPLE_VIDEO_PROCESS_START = "😀 Generating Sample Video! This might take some time."
+    SAMPLE_VIDEO_PROCESS_START = "😀 Generating Sample Video! This might take some time.by : @thanimaibots"
     SAMPLE_VIDEO_PROCESS_FAILED = "😟 Sorry! Sample video generation failed possibly due to some infrastructure failure 😥."
     SAMPLE_VIDEO_PROCESS_SUCCESS = (
-        "🤓 Sample video was generated successfully!, Now starting to upload!"
+        "🤓 Sample video was generated successfully!, Now starting to upload!@Thanimsibots "
     )
     SAMPLE_VIDEO_PROCESS_FAILED_GENERATION = (
         "stream link : {file_link}\n\n duration {sample_duration} sample video "
@@ -74,7 +76,7 @@ class Messages:
     TRIM_VIDEO_PROCESS_SUCCESS = (
         "🤓 Video trimmed successfully!, Now starting to upload!"
     )
-    TRIM_VIDEO_START = "😀 Trimming Your Video! This might take some time."
+    TRIM_VIDEO_START = "😀 Trimming Your Video! This might take some time. By : @thanimaibots"
 
     SCREENSHOTS_OPEN_ERROR = "stream link : {file_link}\n\nRequested screenshots: {num_screenshots}.\n\n{duration}"
     SCREENSHOTS_FAILED_GENERATION = (
