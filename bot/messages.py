@@ -10,8 +10,7 @@ class Messages:
         "taking too long to complete, hence cancelled."
     )
     TRACK_USER_ACTIVITY = "User id: `{chat_id}`"
-    PROCESSING_REQUEST = "Processing your request, Please wait! 😴
-@thanimsibots"
+    PROCESSING_REQUEST = "Processing your request, Please wait! 😴 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆: @𝗧𝗵𝗮𝗻𝗶𝗺𝗮𝗶𝗯𝗼𝘁𝘀❤️💙 "
     SCREENSHOT_AT = "ScreenShot at {time}"
     SCREENSHOT_PROCESS_FAILED = "😟 Sorry! Screenshot generation failed possibly due to some infrastructure failure 😥."
     SCREENSHOT_PROCESS_SUCCESS = (
