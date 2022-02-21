@@ -7,6 +7,11 @@ I had removed host in this repo so there is a less chances of heroku suspension.
 For now it is not suspended by heroku but dont know when it gonna suspended.
 Since i had removed host bot will download the entire file and then generate screenshots
 
+# ❤️ Support
+<a href="https://t.me/thanimaibots"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+
+<a href="https://t.me/thanimaisupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+
 
 ## Description
 
