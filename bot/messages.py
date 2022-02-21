@@ -22,7 +22,7 @@ Powered by:@Thanimaibots"
     )
     PROCESS_UPLOAD_CONFIRM = (
         "Successfully completed process in {total_process_duration}\n\n"
-        "If You find me helpful, please rate me [here](tg://resolve?domain=botsarchive&post=1206)."
+        "If You find me helpful, please rate me[ support](https://t.me/thanimaisupport)."
     )
     WRONG_FORMAT = "Please follow the specified format"
     VIDEO_PROCESS_CAPTION = "Sample video. {duration}s from {start}"
