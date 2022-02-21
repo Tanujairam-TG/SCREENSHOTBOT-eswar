@@ -1,4 +1,4 @@
-# [Screenshotit_bot](https://tx.me/screenshotit_bot)
+# [Screenshot bot ](http://t.me/Thanimaiscreenshotbot)
 
 > Telegram Bot For Screenshot Generation. Check Description for the live example 
 
@@ -10,11 +10,11 @@ Since i had removed host bot will download the entire file and then generate scr
 
 ## Description
 
-An attempt to implement the screenshot generation of telegram files. Live version can be found here [@Screenshot_NsBot](https://t.me/Screenshot_NsBot "Screenshot Generator Bot").
+An attempt to implement the screenshot generation of telegram files. Live version can be found here[Thanimaiscreenshotbot](http://t.me/Thanimaiscreenshotbot "Screenshot Generator Bot").
 
 ## Installation Guide
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/screenshot-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Lonelysing/SCREENSHOTBOT)
 
 ### Prerequisites
 
