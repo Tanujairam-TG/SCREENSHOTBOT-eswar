@@ -19,7 +19,8 @@ class Config:
     DEBUG = bool(os.environ.get("DEBUG"))
     WORKER_COUNT = int(os.environ.get("WORKER_COUNT", 20))
     IAM_HEADER = os.environ.get("IAM_HEADER", "")
-
+    PROCESSED_STR = "◾"
+    UNPROSSED_STR = "◽"
     COLORS = [
         "white",
         "black",
