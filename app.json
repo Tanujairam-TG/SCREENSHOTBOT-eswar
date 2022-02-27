@@ -74,7 +74,7 @@
     "PROCESSED_STR': {
       "description": "Processed icon of status bar when downloading", 
       "required" : false
-    }
+    }, 
   },
   "addons": [
   ],
