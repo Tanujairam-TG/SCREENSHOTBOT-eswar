@@ -71,8 +71,12 @@
       "description": "Maximum number of processes should bot handle at a time to control overload on bot default value is 20.",
       "required": false
     }, 
-    "PROCESSED_STR': {
+    "PROCESSED_STR": {
       "description": "Processed icon of status bar when downloading", 
+      "required" : false
+    }, 
+    "UNPROSSED_STR": {
+      "description": "Unprocessed icon of status bar when downloading", 
       "required" : false
     }
   },
