@@ -12,8 +12,8 @@ from bot.config import Config
 from bot.messages import Messages
 
 log = logging.getLogger(__name__)
-
-
+PROCESSED_STR = Config.PROCESSED_STR
+UNPROSSED_STR = Config.UNPROSSED_STR
 class ProcessTypes:
     SAMPLE_VIDEO = 1
     TRIM_VIDEO = 2
@@ -109,8 +109,8 @@ class Utilities:
             time_to_complete = round(((total - current) / speed))
             time_to_complete = Utilities.TimeFormatter(time_to_complete)
             progressbar = "[{0}{1}]".format(
-                ''.join([f"{BLACK_MEDIUM_SMALL_SQUARE}" for i in range(math.floor(percentage / 10))]),
-                ''.join([f"{WHITE_MEDIUM_SMALL_SQUARE}" for i in range(10 - math.floor(percentage / 10))])
+                ''.join([f"{PROCESSED_STR}" for i in range(math.floor(percentage / 10))]),
+                ''.join([f"{UNPROSSED_STR}" for i in range(10 - math.floor(percentage / 10))])
             )
             current_message = f"**Downloading:** {round(percentage, 2)}%\n\n"
             current_message += f"{progressbar}\n\n"
