@@ -73,10 +73,12 @@
     }, 
     "PROCESSED_STR": {
       "description": "Processed icon of status bar when downloading", 
+      "value": "█", 
       "required" : false
     }, 
     "UNPROSSED_STR": {
       "description": "Unprocessed icon of status bar when downloading", 
+      "value":"░", 
       "required" : false
     }
   },
